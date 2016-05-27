@@ -1,5 +1,5 @@
 # Compendium
-
+*This is a modified version of Compendium.  It has been modified so that past participle verbs are detected in the past tense*
 English NLP for Node.js and the browser.
 
 35k gzipped, Part-of-Speech tagging (92% on Penn treebank), entity recognition, sentiment analysis and more, MIT licensed.
