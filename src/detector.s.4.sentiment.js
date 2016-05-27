@@ -86,7 +86,7 @@
             // Main tense detection
             pos = token.pos;
             if (token.attr.is_verb) {
-                p.main_tense = (pos === 'VBD' ? 'past' : 'present');
+                p.main_tense = ((pos === 'VBD'|| pos==='VBN') ? 'past' : 'present');
             } else if (pos === 'MD' && future_modals.indexOf(token.norm) > -1) {
                 p.main_tense = 'future';
             }
