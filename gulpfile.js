@@ -343,7 +343,7 @@ gulp.task('test', ['build_minimal'], function() {
 gulp.task('build', ['build_minimal', 'build_full', 'build_minimal_fr', 'build_full_fr']);
 gulp.task('build_en', ['build_minimal', 'build_full']);
 gulp.task('build_fr', ['build_minimal_fr', 'build_full_fr']);
-gulp.task('lexicon', ['minimal_lexicon', 'full_lexicon', 'fr_lexicon']);
+gulp.task('lexicon', ['minimal_lexicon', 'full_lexicon']);
 
 gulp.task('fr_lexicon', function(cb) {
     lexicon_fr(0);
